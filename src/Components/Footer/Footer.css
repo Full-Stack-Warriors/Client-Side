@@ -1,0 +1,125 @@
+/* =================Footer Section Styleing=============== */
+    .Footer{
+       background-image:  linear-gradient(120deg, rgb(161, 196, 253,0.8) 0%, rgb(194, 233, 251,0.8) 100%),url(../../assets/footer_bg.png);
+       background-size:cover;
+       background-position: center;
+       padding: 20px;
+    }
+    .Footer .Footer_Logo{
+        text-align: center;
+    }
+    .Footer .Footer_Logo a{
+        color: #008aff !important;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .Footer .Footer_Logo a .fas{
+        margin-right: 5px;
+    }
+    .Footer .Footer_Logo a span{
+        color: #111111 !important;
+    }
+    .Footer .Footer_Logo .footer_social{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .Footer .Footer_Logo .footer_social li {
+        padding:10px;
+    }
+    .Footer .Footer_Logo .footer_social .fa-twitter{
+        color:#1DA1F2;
+    }
+    .Footer .Footer_Logo .footer_social .fa-facebook-f{
+        color:#4267B2;
+    }
+    .Footer .Footer_Logo .footer_social .fa-instagram{
+        color:#ffffff;
+        padding:2px;
+        border-radius: 3px;
+        background:radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    }
+    .Footer .Footer_Menu,.Footer .Footer_Help{
+        text-align: center;
+    }
+    .Footer .Footer_Menu p, .Footer .Footer_Help p{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #333333;
+    }
+    .Footer .Footer_Menu ul{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Footer .Footer_Menu ul li a{
+        font-family: 'Poppins', sans-serif;
+        margin: 0px 10px;
+        color:#444444;
+        font-weight:500;
+    }
+    .Footer .Footer_Help ul li a{
+        font-family: 'Poppins', sans-serif;
+        color:#444444;
+        font-weight:500;
+    }
+    /* =================Developer================ */
+        .Developer{
+            border-top: 1px solid #008aff;
+            margin:0px 10px !important;
+            padding-top: 10px;
+            text-align: center;
+        }
+        .Developer p{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color:#444444;;
+            margin-bottom: 5px;
+        }
+        .Developer a{
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color:#444444;
+        }
+        .Developer a span{
+            color: #008aff;
+        }
+        .Developer a span .fab{
+            margin-right:5px;
+        }
+     /* =================Developer================ */
+/* ===============X==Footer Section Styleing==X============= */
+
+/* ==============Footer Responsive============= */
+    @media(max-width:1024px){
+        .Footer{
+            padding:15px;
+        }
+        .Footer .Footer_Menu p, .Footer .Footer_Help p{
+            font-size: 16px;
+        }
+        .Footer .Footer_Menu ul{
+            display:block;
+        }
+        .Footer .Footer_Menu ul li a{
+            font-size: 12px;
+        }
+        .Footer .Footer_Help ul li a{
+            font-size: 12px;
+        }
+        /* =================Developer================ */
+            .Developer{
+                margin:0px 0px !important;
+            }
+            .Developer p{
+                font-size: 10px;
+            }
+            .Developer a{
+                font-size: 10px;
+            }
+        /* =================Developer================ */
+    }
+/* ===========X===Footer Responsive===X========== */

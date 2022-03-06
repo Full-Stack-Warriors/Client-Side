@@ -1,0 +1,36 @@
+/* ====================Bot================= */
+    .bot_icon{
+        position: fixed;
+        bottom: 20px;
+        right:20px;
+        cursor: pointer;
+    }
+    .bot_icon .assistan{
+        display: flex;
+        flex-direction:row;
+    }
+    .bot_icon .assistan  .assistan_lis{
+        display: flex;
+        flex-direction: column;
+    }
+    .bot_icon .assistan i{
+        margin-bottom: 5px;
+        font-size: 22px;
+        padding:10px;
+        background-color: #008aff;
+        color: #fff;
+        border-radius: 50%;
+        box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+    }
+/* ====================Bot================= */
+
+/* =================Responsive============ */
+    @media(max-width: 1024px){
+        .bot_icon{
+            position: fixed;
+            bottom: 30px;
+            right:30px;
+            cursor: pointer;
+        }
+    }
+/* =============X====Responsive===X========= */

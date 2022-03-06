@@ -1,0 +1,50 @@
+/* =====================Contact Page Styling======================= */
+    .Contact #contact_heading{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .Contact #contact_heading h3{
+        font-weight: 600;
+        color: #008aff;
+    }
+    .Contact #contact_heading p{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #928f88;
+    }
+    .Contact .contact_body{
+        align-items: center;
+        box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+        padding:20px;
+        border-radius:5px;
+    }
+    .Contact .contact_body .contact_info_card{
+        text-align: center;
+    }
+    .Contact .contact_body .contact_info_card i{
+        color: #008aff;
+        font-size: 20px;
+    }
+    .Contact .contact_body .contact_info_card p{
+        margin: 20px 0px !important;
+        color: #333333 !important;
+        font-family: 'Poppins', sans-serif;
+        font-weight:500;
+        word-wrap: wrap;
+    }
+
+/* ==================X===Contact Page Styling====X=================== */
+
+/* ===============Responsive========= */
+    @media(max-width:768px){
+        .Contact #contact_heading h3{
+           font-size:20px;
+        }
+        .Contact #contact_heading p{
+            font-size:14px;
+        }
+        .Contact .contact_body .contact_info_card p{
+            font-size:12px;
+        }
+    }
+/* ===============Responsive========= */

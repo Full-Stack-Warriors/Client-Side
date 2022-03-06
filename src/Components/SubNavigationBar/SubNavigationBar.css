@@ -1,0 +1,18 @@
+.disease_sub_nav{
+    display:flex;
+    align-items:center;
+}
+.disease_sub_nav li a{
+    margin: 0px 5px;
+    color: #333333 !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+.disease_sub_nav li a:hover{
+    color: #008aff !important;
+}
+.disease_sub_nav li .active{
+    color: #008aff !important;
+}

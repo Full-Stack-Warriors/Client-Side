@@ -1,0 +1,37 @@
+.patient1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#Patient2 .heading h4{
+  color: #333333;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+#Patient2 .heading p{
+  color: #444444;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.radioButtonDiv{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.radioButtonDiv h5{
+  color: #111111;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+#Patient2 form{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#Patient2 form label{
+  padding: 0px 10px;
+}

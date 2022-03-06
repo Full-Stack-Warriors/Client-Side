@@ -1,0 +1,57 @@
+/* ===============Symtoms Cheaker Styling============== */
+    .symtoms_checker{
+        padding: 20px;
+        box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+        border-radius:5px;
+    }
+    .symtoms_checker #symtoms_checker_heading{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .symtoms_checker #symtoms_checker_heading h3{
+        font-weight: 600;
+        color: #008aff;
+    }
+    .symtoms_checker #symtoms_checker_heading p{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #928f88;
+    }
+    /* ===========Symtoms Home=========== */
+        .symtoms_checker .symtoms_home{
+            justify-content: center;
+            align-items: center;
+        }
+        .symtoms_checker .symtoms_home{
+            font-family: 'Poppins', sans-serif;
+        }
+        .symtoms_checker .symtoms_home h3{
+            font-weight: 600;
+            color: #008aff;
+        }
+        .symtoms_checker .symtoms_home p{
+            font-weight: 500;
+            color:#444444;
+            text-align: justify;
+        }
+        .symtoms_checker .symtoms_home .btn{
+            font-weight: 600;
+            font-size:18px;
+            background-color:#008aff;
+        }
+     /* ===========Symtoms Home=========== */
+/* ===============Symtoms Cheaker Styling============== */
+
+/* ============Responsive=============== */
+    @media(max-width:768px){
+        .symtoms_checker #symtoms_checker_heading h3,.symtoms_checker .symtoms_home h3{
+            font-size:20px;
+        }
+        .symtoms_checker #symtoms_checker_heading p{
+            font-size:14px;
+        }
+        .symtoms_checker .symtoms_home p{
+            font-size:12px;
+        }
+    }
+/* ============Responsive=============== */

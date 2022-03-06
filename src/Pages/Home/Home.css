@@ -1,0 +1,155 @@
+/* ===============Home Page Styling================== */
+    /* =============Home Banner================ */
+        .home_page_banner{
+            background-image: linear-gradient(120deg, rgb(161, 196, 253,0.4) 0%, rgb(194, 233, 251,0.7) 100%),url(../../assets/home.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 80vh;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .home_page_banner .home_hero_section{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .home_page_banner .home_hero_section h1{
+            font-weight: 600;
+            color: #333333;
+            text-transform: uppercase;
+        }
+        .home_page_banner .home_hero_section h1 span{
+            color: #008aff;
+        }
+        .home_page_banner .home_hero_section h4{
+            margin-top: 10px;
+            font-weight: 600;
+            color: #444444;
+            text-transform: capitalize;
+        }
+        .home_page_banner .home_hero_section .btn{
+            margin-top:20px;
+            background-color: #008aff;
+            font-family: 'Poppins', sans-serif;
+            font-weight:600;
+        }
+    /* ===========X==Home Banner==X============== */
+    /* ===============Services================ */
+        .Services #services_heading,.feedback_section #feedback_section_heading{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .Services #services_heading h3,.feedback_section #feedback_section_heading h3{
+            font-weight: 600;
+            color: #008aff;
+        }
+        .Services #services_heading p{
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #928f88;
+        }
+        .Services .services_section .service_card{
+            text-align: center;
+            background-color: #FFFFFF;
+            box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+            padding: 20px;
+            border-radius: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .Services .services_section .service_card .fas{
+            font-size: 22px;
+            background-color: #008aff;
+            color: #FFFFFF;
+            border-radius: 50%;
+            padding:12px 15px;
+            margin-left:0px!important;
+        }
+        .Services .services_section .service_card h5{
+            margin-top:10px;
+            color:#333333;
+            font-weight: 600;
+        }
+        .Services .services_section .service_card p{
+            color:#444444;
+            font-weight:400;
+            font-size:14px;
+        }
+    /* ============X===Services===X============= */
+    /* =================Feedback================ */
+        .feedback_section #feedback_section_heading p{
+            color:#444444;
+            font-weight:600;
+            text-transform: uppercase;
+        }
+        .feedback_section{
+            background-image: linear-gradient(120deg, rgb(161, 196, 253,0.8) 0%, rgb(194, 233, 251,0.8) 100%),url(../../assets/peoples.png);
+            background-position: center;
+            background-size: cover;
+            padding:20px;
+        }
+        .feedback_section .feedback_card{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .feedback_section .feedback_card div{
+            flex-basis: 60%;
+            padding:40px 20px;
+            border-radius:5px;
+            font-family: 'Poppins', sans-serif;
+            background-image: linear-gradient(120deg, rgb(224, 195, 252,0.7) 0%, rgb(142, 197, 252,0.7) 100%);
+        }
+        .feedback_section .feedback_card h4{
+            text-transform:capitalize;
+            color:#333333;
+            font-weight: 600;
+        }
+        .feedback_section .feedback_card p{
+            margin-top: 20px;
+            color:#444444;
+            font-weight: 500;
+        }
+        .feedback_section .feedback_card p span{
+            color: #646161fa;
+            padding:0px 5px;
+        }
+    /* ==============X===Feedback===X============= */
+/* =============X==Home Page Styling==X================ */
+
+/* ==========Responsive========= */
+        @media(max-width:1024px) {
+            .feedback_section .feedback_card div{
+                flex-basis: 100%;
+            }
+        }
+        @media(max-width:768px){
+            .Services #services_heading h3,.feedback_section #feedback_section_heading h3{
+                font-size:20px;
+            }
+            .Services #services_heading p,.feedback_section #feedback_section_heading p{
+                font-size:14px;
+            }
+            .Services .services_section .service_card h5{
+                font-size:16px;
+            }
+            .Services .services_section .service_card p{
+                font-size:10px;
+            }
+            .feedback_section .feedback_card{
+                padding:10px 0px
+            }
+            .feedback_section .feedback_card p{
+                font-size:12px;
+            }
+            .feedback_section .feedback_card h4{
+                font-size:16px;
+            }
+            .feedback_section .feedback_card p span{
+                padding:0px 10px;
+            }
+        }
+/* =======X===Responsive==X======= */

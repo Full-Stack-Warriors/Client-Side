@@ -1,0 +1,69 @@
+/* ==================Sign Up And Login Form Styling============== */
+    .account_form #account_heading{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .account_form #account_heading h3{
+        font-weight: 600;
+        color: #008aff;
+    }
+    .account_form #account_heading p{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #928f88;
+    }
+    .account_form .account_form_body .row{
+        justify-content:center;
+    }
+    .account_button p{
+        margin-top:10px;
+        font-weight:500;
+        font-family: 'Poppins', sans-serif;
+    }
+    .account_button .btn{
+        background-color: #008aff;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+    }
+    .account_button p a{
+        font-weight:600;
+        color: #008aff;
+    }
+    
+    .form-floating label{
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 500;
+        color: #333333 !important;
+    }
+    .form-floating .form-control{
+        outline:none !important;
+        border: none !important;
+        box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+        background-color:none;
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 500;
+        color: #333333 !important;
+    }
+    .fade p{
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 500;
+    }
+    .alert-heading {
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 600;
+    }
+/* ==============X====Sign Up And Login Form Styling===X=========== */
+
+/* ===============Responsive========= */
+    @media(max-width:768px){
+        .account_form #account_heading h3{
+            font-size:20px;
+        }
+        .account_form #account_heading p{
+            font-size:14px;
+        }
+         .form-floating textarea {
+            font-size:10px!important;
+        }
+    }
+/* ===============Responsive========= */

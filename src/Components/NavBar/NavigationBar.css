@@ -1,0 +1,27 @@
+/* =======================Navigation Bar Styleing======================== */
+    .navbar{
+        background: #ffffff;
+        box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+    }
+    .navbar-brand{
+        color: #008aff !important;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .navbar-brand span{
+        color: #111111 !important;
+    }
+    .nav-link{
+        text-align: center;
+        color: #111111 !important;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav-link:hover{
+        color: #008aff !important;
+    }
+    .nav-active{
+        color: #008aff !important;
+    }
+/* ====================X===Navigation Bar Styleing====X==================== */

@@ -1,0 +1,28 @@
+/* ==============Error Page Styling============== */
+    .Error__Page{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        font-weight:bold;
+        background-image: linear-gradient(to right, rgb(226, 255, 254) 50%, #fff 50%);
+        font-family: 'Poppins', sans-serif;
+    }
+    .Error__Page h1{
+        font-size:80px;
+        color:red;
+        font-weight: 600;
+    }
+    .Error__Page p{
+        font-size:20px;
+        color:#008aff;
+        font-weight: 600;
+    }
+    .Error__Page .btn{
+        background-color: #008aff;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+    }
+/* ===========X===Error Page Styling===X=========== */

@@ -1,0 +1,95 @@
+/* =============Chat Room Window Styling================ */
+    .chat_roome #chat_roome_headding{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .chat_roome #chat_roome_headding h3{
+        font-weight: 600;
+        color: #008aff;
+    }
+    .chat_roome #chat_roome_headding p{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #928f88;
+    }
+      .chat_messages{
+          margin:10px 0px;
+      }
+      .chat_messages p{
+        margin-bottom: 0px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #008aff;
+        text-transform: capitalize;
+        font-size: 16px;
+      }
+      .chat_messages p span{
+        color:#444444;
+        font-size: 12px;
+      } 
+      .chat_messages .message_other{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #444444;
+        background-color: #d3d3d3;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+      }
+      .chat_messages .message_user{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-left: auto;
+        background-color:#29b3cd;
+        padding:15px;
+        border-radius:5px;
+        color:white;
+        box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+      }
+      .chat_roome .send_row_message{
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        padding:5px;
+        background-color: #FFFFFF;
+        border-top:1px solid lightgrey;
+      }
+      .chat_roome .send_row_message .chat_inputFiled{
+          flex:1;
+          padding:10px;
+          outline: none;
+          border:none;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 600;
+          color:#444444;
+      }
+      .chat_roome .send_row_message .message_end{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .chat_roome .send_row_message .message_end .fa-microphone-slash{
+        font-size: 20px;
+        color: #008aff;
+        padding:0px 10px;
+      }
+      .chat_roome .send_row_message .message_end .send_button{
+          background-color: #008aff;
+          outline: none;
+          border: none;
+          color: #ffffff;
+          font-weight: bold;
+          cursor: pointer;
+          padding:10px 20px;
+          border-radius:5px;
+      }
+
+/* ===========X==Chat Room Window Styling===X============= */
+
+/* ===============Responsive =============== */
+      @media(max-width:400px){
+        .chat_roome .send_row_message .message_end .send_button{
+            padding:5px 10px;
+        }
+      }
+/* ============X===Responsive ===X============ */

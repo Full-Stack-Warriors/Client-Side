@@ -1,0 +1,90 @@
+/* ==============About Us Page Styleing================= */
+    .about_us #about_us_heading{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .about_us #about_us_heading h3{
+        font-weight: 600;
+        color: #008aff;
+    }
+    .about_us #about_us_heading p{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #928f88;
+    }
+    .about_us .about_mission h5 {
+        margin-top:10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #333333;
+    }
+    .about_us .about_team .team_image{
+        height:200px;
+        width:200px;
+        object-fit: fill;
+        border-radius: 5px;
+    }
+    .about_us .about_mission h5, .about_us .about_team h5{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #333333;
+    }
+    .about_us .about_mission p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color:#444444;
+        cursor: pointer;
+        text-align: justify;
+    }
+    .about_us .about_team .about_team_member h5{
+        margin-top:10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #008aff;
+    }
+    .about_us .about_team .about_team_member h6{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #111111;
+    }
+    .about_us .about_team .about_team_member p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #333333;
+    }
+    .about_us .about_team .about_team_member ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_us .about_team .about_team_member ul li{
+        margin:0px 10px;
+    }
+    .about_us .about_team .about_team_member ul li i{
+        font-size:22px;
+    }
+/* ===========X===About Us Page Styleing===X============== */
+
+/* ===============Responsive========= */
+    @media(max-width:768px){
+        .about_us #about_us_heading h3{
+            font-size:20px;
+        }
+        .about_us #about_us_heading p{
+            font-size:14px;
+        }
+        .about_us .about_mission h5, .about_us .about_team h5{
+           font-size: 14px;
+        }
+        .about_us .about_mission p{
+            font-size: 12px;
+        }
+        .about_us .about_team .about_team_member h6{
+            font-size: 12px;
+        }
+        .about_us .about_team .about_team_member p{
+            font-size: 12px;
+        }
+    }
+/* ===============Responsive========= */
